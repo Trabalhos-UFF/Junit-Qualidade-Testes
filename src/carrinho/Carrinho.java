@@ -1,10 +1,10 @@
 package carrinho;
+//
+import produto.Produto;
+import produto.ProdutoNaoEncontradoException;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import produto.Produto;
-import produto.ProdutoNaoEncontradoException;
 
 public class Carrinho {
 	
@@ -24,11 +24,11 @@ public class Carrinho {
 		
 		return valorTotal;
 	}
-	
+
 	public void addItem(Produto item) {
 		items.add(item);
 	}
-	
+
 	public void removeItem(Produto item) throws ProdutoNaoEncontradoException {
 		if (!items.remove(item)) {
 			throw new ProdutoNaoEncontradoException();
