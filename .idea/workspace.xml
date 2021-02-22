@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08c5a7d0-2c4f-4f5d-ae59-f9252d2ea258" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pagamentos/Boleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagamentos/Boleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pagamentos/Fatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagamentos/Fatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pagamentos/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagamentos/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pagamentos/FaturaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pagamentos/FaturaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +170,7 @@
       <workItem from="1613260073337" duration="1458000" />
       <workItem from="1613261687353" duration="9553000" />
       <workItem from="1613421862969" duration="287000" />
-      <workItem from="1613957789538" duration="3817000" />
+      <workItem from="1613957789538" duration="3997000" />
     </task>
     <servers />
   </component>

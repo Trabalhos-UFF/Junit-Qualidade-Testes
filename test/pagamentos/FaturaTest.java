@@ -32,5 +32,20 @@ public class FaturaTest {
         }));
     }
     @Test
+    public void pagaContasInteiras(){
+        Boleto boleto1 = new Boleto( 400);
+        Boleto boleto2 = new Boleto( 500);
+        Boleto boleto3 = new Boleto( 1800);
+        Boleto boleto4 = new Boleto( 400);
+        pagamentos.forEach((pagamento -> {
+            pagamento.boleto.add(boleto1);
+            pagamento.boleto.add(boleto2);
+            pagamento.boleto.add(boleto3);
+            pagamento.boleto.add(boleto4);
+            pagamento.processaPagamento();
+            boolean pago = pagamento.getFatura().getPago();
+            Assertions.assertTrue(pago);
+        }));
+    }
 
 }
