@@ -11,4 +11,7 @@ public class Boleto {
         this.data = new Date();
         this.valorPago = valorPago;
     }
+    public float getValorPago(){
+        return this.valorPago;
+    }
 }

@@ -9,4 +9,12 @@ public class Pagamento {
         this.fatura = fatura;
         boleto = new ArrayList<Boleto>();
     }
+    public Fatura getFatura(){
+        return this.fatura;
+    }
+    public void processaPagamento(){
+        boleto.forEach(boletoPago->{
+            fatura.adicionaValorPago(boletoPago.getValorPago());
+        });
+    }
 }

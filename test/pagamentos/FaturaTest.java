@@ -27,9 +27,10 @@ public class FaturaTest {
         pagamentos.forEach((pagamento -> {
             pagamento.boleto.add(boleto);
             pagamento.processaPagamento();
-            Boolean pago = pagamento.getFatura().getPago();
+            boolean pago = pagamento.getFatura().getPago();
             Assertions.assertFalse(pago);
         }));
-
     }
+    @Test
+
 }
