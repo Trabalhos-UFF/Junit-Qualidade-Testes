@@ -12,7 +12,7 @@ public class FaturaTest {
     }
 
     @Test
-    public void testeInicial(){
+    public void processaBoleto(){
 
     }
 }

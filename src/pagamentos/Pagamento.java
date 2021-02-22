@@ -1,0 +1,12 @@
+package pagamentos;
+
+import java.util.ArrayList;
+
+public class Pagamento {
+    ArrayList<Boleto> boleto;
+    Fatura fatura;
+    public Pagamento (Fatura fatura) {
+        this.fatura = fatura;
+        boleto = new ArrayList<Boleto>();
+    }
+}

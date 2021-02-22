@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c5a7d0-2c4f-4f5d-ae59-f9252d2ea258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pagamentos/Fatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pagamentos/Boleto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,7 @@
       <workItem from="1613260073337" duration="1458000" />
       <workItem from="1613261687353" duration="9553000" />
       <workItem from="1613421862969" duration="287000" />
-      <workItem from="1613957789538" duration="2277000" />
+      <workItem from="1613957789538" duration="2651000" />
     </task>
     <servers />
   </component>
