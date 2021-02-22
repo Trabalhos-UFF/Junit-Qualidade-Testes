@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c5a7d0-2c4f-4f5d-ae59-f9252d2ea258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c6d58b672bc874d1c2871f8fcc78aa4cf1aa799" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro_junit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/suite/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carrinho/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carrinho/Carrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/calculadora/CalculadoraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/produto/ProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/produto/ProdutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pagamentos/Fatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pagamentos/FaturaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +54,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.intro_junit in intro_junit">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,7 +151,9 @@
       <option name="presentableId" value="Default" />
       <updated>1613255490289</updated>
       <workItem from="1613260073337" duration="1458000" />
-      <workItem from="1613261687353" duration="9099000" />
+      <workItem from="1613261687353" duration="9553000" />
+      <workItem from="1613421862969" duration="287000" />
+      <workItem from="1613957789538" duration="2277000" />
     </task>
     <servers />
   </component>
@@ -178,5 +170,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
